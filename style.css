@@ -1,0 +1,41 @@
+
+	html, body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	#map {
+		width: 100%;
+		height: 100%;
+	}
+
+	#panel {
+		left: 10px;
+		top: 5px;
+		position: absolute;
+		z-index: 1;
+		width: 220px;
+		height: 420px;
+		background: #FFF;
+		padding: 10px;
+		box-shadow: 1px 1px grey;
+	}
+
+	#panel > input {
+		margin-top: 5px;
+	}
+
+	#panel > label {
+		margin-top: 5px;
+	}
+
+	#panel > #submit {
+		margin-top: 10px;
+	}
+
+	#panel > .title {
+		padding-top: 20px;
+	}
